@@ -9,9 +9,9 @@ import {
 } from '@angular/core';
 
 @Directive({
-  selector: '[appBetterHightlight]',
+  selector: '[appBetterHighlight]',
 })
-export class BetterHightlightDirective implements OnInit {
+export class BetterHighlightDirective implements OnInit {
   @Input() defaultColor: String = 'transparent';
   @Input() highlightColor: String = 'blue';
   @HostBinding('style.backgroundColor') backgroundColor: String = 'transparent';
